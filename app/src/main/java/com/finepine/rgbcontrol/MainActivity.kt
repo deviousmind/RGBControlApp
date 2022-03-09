@@ -1,4 +1,4 @@
-package com.finepine.myapplication
+package com.finepine.rgbcontrol
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

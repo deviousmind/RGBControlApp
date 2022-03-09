@@ -1,4 +1,4 @@
-package com.finepine.myapplication
+package com.finepine.rgbcontrol
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.finepine.myapplication", appContext.packageName)
+        assertEquals("com.finepine.rgbcontrol", appContext.packageName)
     }
 }

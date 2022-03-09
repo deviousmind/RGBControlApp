@@ -1,4 +1,4 @@
-package com.finepine.myapplication
+package com.finepine.rgbcontrol
 
 import org.junit.Test
 

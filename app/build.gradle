@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.finepine.myapplication"
+        applicationId "com.finepine.rgbcontrol"
         minSdk 28
         targetSdk 32
         versionCode 1
