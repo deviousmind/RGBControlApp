@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RGB Control</string>
+    <string name="power">Power</string>
+    <string name="blue">Blue</string>
+    <string name="green">green</string>
+    <string name="red">Red</string>
 </resources>
