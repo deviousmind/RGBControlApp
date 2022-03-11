@@ -8,6 +8,7 @@ class RgbControl : AppCompatActivity() {
 
     private lateinit var binding : RgbControlBinding
     private lateinit var commander : RGBCommander
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = RgbControlBinding.inflate(layoutInflater)
