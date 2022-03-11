@@ -1,16 +1,16 @@
 package com.finepine.rgbcontrol
 
 import androidx.appcompat.app.AppCompatActivity
-import com.finepine.rgbcontrol.databinding.ActivityMainBinding
+import com.finepine.rgbcontrol.databinding.RgbControlBinding
 import android.os.Bundle
 
 class RgbControl : AppCompatActivity() {
 
-    private lateinit var binding : ActivityMainBinding
+    private lateinit var binding : RgbControlBinding
     private lateinit var commander : RGBCommander
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = RgbControlBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         commander = RGBCommander()
