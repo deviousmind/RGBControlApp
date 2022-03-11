@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.finepine.rgbcontrol.databinding.ActivityMainBinding
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class RgbControl : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
     private lateinit var commander : RGBCommander
