@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.finepine.rgbcontrol">
+    <uses-feature android:name="android.software.companion_device_setup"/>
 
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
